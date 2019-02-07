@@ -1,0 +1,158 @@
+.zikto-wrap {
+  width: 100vw;
+  height: 100vh;
+}
+
+.zikto-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+}
+
+haeder .zikto-nav-area {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .zikto-nav-area ul {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  position: relative;
+  z-index: 19;
+}
+
+header .zikto-nav-area ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header .zikto-nav-area ul li {
+  width: 50%;
+}
+
+header .zikto-nav-area ul li:first-child {
+  float: left;
+}
+
+header .zikto-nav-area ul li:first-child p {
+  display: inline-block;
+}
+
+header .zikto-nav-area ul li:first-child p:first-child {
+  width: 140px;
+  margin-right: 25px;
+}
+
+header .zikto-nav-area ul li:first-child p:last-child {
+  width: 110px;
+  vertical-align: middle;
+}
+
+header .zikto-nav-area ul li:first-child p img {
+  width: 100%;
+  vertical-align: middle;
+  z-index: 19 !important;
+}
+
+header .zikto-nav-area ul li:last-child {
+  float: right;
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.bar {
+  z-index: 19;
+}
+
+.bar1 {
+  width: 25px;
+  height: 2px;
+  background-color: #333;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+.bar2 {
+  width: 25px;
+  height: 2px;
+  background-color: #333;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+.bar3 {
+  width: 25px;
+  height: 2px;
+  background-color: #333;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-5px, 6px);
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-5px, -7px);
+  transform: rotate(45deg) translate(-5px, -7px);
+}
+
+/* SECTION AREA */
+
+section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+section .zikto-product-area {
+  width: 100%;
+}
+
+section .zikto-product {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+section .zikto-product div {
+  width: 100%;
+  padding: 40px 0 120px;
+}
+
+section .zikto-product div p {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+section .business-product {
+  display: grid;
+  grid-gap: 100px 100px;
+  grid-auto-rows: 240px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  padding: 0 40px;
+}
+
+section .business-product li p:first-child {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
