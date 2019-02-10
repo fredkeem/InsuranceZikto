@@ -132,8 +132,8 @@ section .zikto-product {
 }
 
 section .zikto-product div {
-  width: 100%;
-  padding: 2% 60px 5%;
+  /* width: 100%; */
+  padding: 22px 60px 45px;
 }
 
 section .zikto-product div p {
@@ -148,7 +148,7 @@ section .personal-product {
   grid-gap: 100px 100px;
   grid-auto-rows: 190px;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  padding: 0 80px;
+  padding: 0 60px;
 
   
 }

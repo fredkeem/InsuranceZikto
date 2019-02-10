@@ -126,6 +126,10 @@ section {
   margin: 0 auto;
 }
 
+section .section-title {
+  margin-bottom: 130px;
+}
+
 section .section-title h1,
 section .section-title h2 {
   font-family: "Noto Sans KR", sans-serif;
@@ -137,10 +141,15 @@ section .section-title h1 {
   margin-bottom: 27px;
   letter-spacing: -1px;
   line-height: 65px;
+  -webkit-animation: fade-in-bottom 1s ease-in-out;
+  animation: fade-in-bottom 1s ease-in-out;
 }
 
 section .section-title h2 {
   font-size: 20px;
+  -webkit-animation: fade-in-bottom 2s ease-in-out;
+  animation: fade-in-bottom 2s ease-in-out;
+  position: relative;
 }
 
 section .section-area {
@@ -213,4 +222,321 @@ section .section-select div h4 img {
 
 section .section-select :last-child {
   border: none;
+}
+
+
+
+/* 추가작업1  */
+@media all and (min-width: 1281px) and (max-width: 1440px) {
+
+}
+
+/* 추가작업2  */
+@media all and (min-width: 1025px) and (max-width:1280px) {
+
+}
+
+/* 작업순서 3 : 태블릿 === 스마트폰 가로버전 */
+@media all and (min-width: 768px) and (max-width:1024px) {
+  .zikto-wrap {
+    background: url('../image/table_i_bg.png') no-repeat;
+    background-size: cover;
+  }
+
+  header .zikto-nav-area ul {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    position: relative;
+    z-index: 19;
+  }
+
+  header .zikto-nav-area ul li:first-child {
+    /* background-color: red; */
+  }
+
+  header .zikto-nav-area ul li:first-child p:first-child {
+    width: 90px;
+    margin-right:10px;
+  }
+
+  header .zikto-nav-area ul li:first-child p:last-child {
+    width: 90px;
+    vertical-align: middle;
+  }
+
+  header .zikto-nav-area ul li:first-child p img {
+    width: 100%;
+    vertical-align: middle;
+    z-index: 19 !important;
+  }
+
+  section .section-area {
+    /* max-width: 1440px; */
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 60px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #000;
+    margin-top: 60px;
+  }
+
+  section .section-area .section-title {
+    -webkit-animation: fade-in-bottom 1s ease-in-out;
+    animation: fade-in-bottom 1s ease-in-out;
+  }
+
+  section .section-area .section-title h1{
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  section .section-area .section-title h2 {
+    font-size: 18px;
+  }
+
+  /* section-select */
+  section .section-select {
+    width: 645px;
+    height: 110px;
+    padding: 30px 0px;
+  }
+
+  section .section-select div {
+    width: 50%;
+    height: 100%;
+    line-height: 25px;
+  }
+
+  section .section-select div h3 {
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-animation: fade-in-bottom 1s ease-in-out;
+    animation: fade-in-bottom 1s ease-in-out;
+  }
+
+  section .section-select div h4 {
+    font-size: 10px;
+    font-weight: 300;
+    -webkit-animation: fade-in-bottom 1s ease-in-out;
+    animation: fade-in-bottom 1s ease-in-out;
+  }
+}
+
+
+/* 작업순서 2 : 스마트폰 가로버전 */
+@media all and (min-width: 481px) and (max-width:767px) {
+  .zikto-wrap {
+    background: url('../image/mobile_hor_i_bg.png') no-repeat;
+    background-size: cover;
+  }
+
+  /* header  */
+
+  header .zikto-nav-area ul {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    position: relative;
+    z-index: 19;
+  }
+
+  header .zikto-nav-area ul li:first-child {
+    /* background-color: red; */
+  }
+
+  header .zikto-nav-area ul li:first-child p:first-child {
+    width: 90px;
+    margin-right:10px;
+  }
+
+  header .zikto-nav-area ul li:first-child p:last-child {
+    width: 90px;
+    vertical-align: middle;
+  }
+
+  header .zikto-nav-area ul li:first-child p img {
+    width: 100%;
+    vertical-align: middle;
+    z-index: 19 !important;
+  }
+
+  /* section */
+
+  /* section-title */
+  section .section-area {
+    padding: 0 20px;
+    justify-content: flex-start;
+  }
+
+  section .section-area .section-title {
+    margin-top: 20px;
+    -webkit-animation: fade-in-bottom 1s ease-in-out;
+    animation: fade-in-bottom 1s ease-in-out;
+  }
+
+  section .section-area .section-title h1{
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  section .section-area .section-title h2 {
+    font-size: 18px;
+  }
+
+  /* section-select */
+  section .section-select {
+    width: 645px;
+    height: 110px;
+    padding: 30px 0px;
+  }
+
+  section .section-select div {
+    width: 50%;
+    height: 100%;
+    line-height: 25px;
+  }
+
+  section .section-select div h3 {
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-animation: fade-in-bottom 1s ease-in-out;
+    animation: fade-in-bottom 1s ease-in-out;
+  }
+
+  section .section-select div h4 {
+    font-size: 10px;
+    font-weight: 300;
+    -webkit-animation: fade-in-bottom 1s ease-in-out;
+    animation: fade-in-bottom 1s ease-in-out;
+  }
+}
+
+/* 작업순서 1 : 스마트폰 세로버전 */
+@media all and (min-width: 320px) and (max-width:480px) {
+  .zikto-wrap {
+    background: url('../image/mobile_i_bg.png') no-repeat;
+    background-size: cover;
+  }
+
+  /* header  */
+
+  header .zikto-nav-area ul {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    position: relative;
+    z-index: 19;
+  }
+
+  header .zikto-nav-area ul li:first-child {
+    /* background-color: red; */
+  }
+
+  header .zikto-nav-area ul li:first-child p:first-child {
+    width: 70px;
+    margin-right: 5px;
+  }
+
+  header .zikto-nav-area ul li:first-child p:last-child {
+    width: 70px;
+    vertical-align: middle;
+  }
+
+  header .zikto-nav-area ul li:first-child p img {
+    width: 100%;
+    vertical-align: middle;
+    z-index: 19 !important;
+  }
+
+  /* section */
+
+  /* section-title */
+  section .section-area {
+    padding: 0 20px;
+    justify-content: flex-start;
+  }
+
+  section .section-area .section-title {
+    margin-top: 20px;
+    -webkit-animation: fade-in-bottom 1s ease-in-out;
+    animation: fade-in-bottom 1s ease-in-out;
+  }
+
+  section .section-area .section-title h1{
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  section .section-area .section-title h2 {
+    font-size: 18px;
+  }
+
+  /* section-select */
+  section .section-select {
+    width: 353px;
+    height: 220px;
+    padding: 0px 60px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  section .section-select div {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    border-right: none;
+    border-bottom: 1px solid #fff;
+    letter-spacing: 3px;
+    line-height: 25px;
+  }
+
+  section .section-select div h3 {
+    font-size: 14px;
+    font-weight: 600;
+    -webkit-animation: fade-in-bottom 1s ease-in-out;
+    animation: fade-in-bottom 1s ease-in-out;
+  }
+
+  section .section-select div h4 {
+    font-size: 8px;
+    font-weight: 300;
+    -webkit-animation: fade-in-bottom 1s ease-in-out;
+    animation: fade-in-bottom 1s ease-in-out;
+  }
+}
+
+
+
+
+
+
+
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
 }
