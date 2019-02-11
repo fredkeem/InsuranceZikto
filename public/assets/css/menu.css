@@ -24,7 +24,7 @@ haeder .zikto-nav-area {
 header .zikto-nav-area ul {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 30px 60px;
+  padding: 20px 60px;
   position: relative;
   z-index: 19;
 }
@@ -48,12 +48,12 @@ header .zikto-nav-area ul li:first-child p {
 }
 
 header .zikto-nav-area ul li:first-child p:first-child {
-  width: 140px;
-  margin-right: 25px;
+  width: 108px;
+  margin-right: 15px;
 }
 
 header .zikto-nav-area ul li:first-child p:last-child {
-  width: 110px;
+  width: 108px;
   vertical-align: middle;
 }
 

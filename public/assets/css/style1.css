@@ -26,8 +26,8 @@
 
 /* Menu style */
 .overlay nav {
-  max-width: 1400px;
-  padding: 0 100px;
+  max-width: 1440px;
+  padding: 0 60px;
   height: 100%;
   /* text-align: center;
 	position: relative;
@@ -52,15 +52,47 @@
 
 .overlay ul li {
   display: block;
-  height: 20%;
-  height: calc(100% / 5);
-  min-height: 54px;
+  /* height: 20%; */
+  /* height: calc(100% / 5); */
+  /* min-height: 54px; */
   -webkit-backface-visibility: hidden;
+  /* margin: 20px 0; */
   backface-visibility: hidden;
 }
 
-.contact-area {
+.overlay .zikto-nav-items {
   width: 100%;
+  
+}
+
+.overlay .zikto-nav-items li {
+  margin: 40px 0;
+}
+
+.overlay .zikto-nav-items li a {
+  /* font-weight: 600; */
+}
+
+.overlay .zikto-nav-items li a span {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border: 1px solid #000;
+  margin-left: 20px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.overlay .zikto-nav-items li a:hover {
+  font-weight: 600;
+}
+
+.overlay .zikto-nav-items li a:hover >  span{
+  background-color: #000;
+}
+
+.contact-area {
+  width: 60%;
   height: 100%;
   align-items: flex-start;
   display: flex;
@@ -70,15 +102,17 @@
 }
 
 .contact-area h2 {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .overlay ul li a {
-  font-size: 54px;
+  font-size: 40px;
   font-weight: 300;
   display: block;
   color: #000;
-  font-size: 35px;
+  /* font-size: 35px; */
   -webkit-transition: transform 0.2s;
   transition: transform 0.2s;
   text-align: right;
@@ -134,19 +168,54 @@
 }
 
 .footer-copy-area {
+  padding: 0 60px;
   position: absolute;
   left: 0;
   bottom: 3%;
   font-size: 12px;
   line-height: 20px;
+  color: #9b9b9b;
 }
 
-@media screen and (max-height: 30.5em) {
+/* 작업순서 3 : 태블릿 === 스마트폰 가로버전 */
+@media all and (min-width: 768px) and (max-width: 1024px) {
   .overlay nav {
-    height: 70%;
-    font-size: 34px;
+    padding: 0 20px;
   }
-  .overlay ul li {
-    min-height: 34px;
+
+  .footer-copy-area {
+    padding: 0 20px;
+  }
+}
+
+/* 작업순서 2 : 스마트폰 가로버전 */
+@media all and (min-width: 481px) and (max-width: 767px) {
+  .overlay nav {
+    padding: 0 20px;
+  }
+  .contact-area {
+    display: none;
+  }
+  .overlay ul li a {
+    font-size: 30px;
+  }
+}
+
+/* 작업순서 1 : 스마트폰 세로버전 */
+@media all and (min-width: 320px) and (max-width: 480px) {
+  .overlay nav {
+    padding: 0 20px;
+  }
+  .contact-area {
+    display: none;
+  }
+  .overlay ul li a {
+    font-size: 30px;
+  }
+
+  .footer-copy-area {
+    right: 0;
+    text-align: right;
+    padding: 0 20px;
   }
 }
