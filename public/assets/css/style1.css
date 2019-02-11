@@ -62,7 +62,6 @@
 
 .overlay .zikto-nav-items {
   width: 100%;
-  
 }
 
 .overlay .zikto-nav-items li {
@@ -87,7 +86,7 @@
   font-weight: 600;
 }
 
-.overlay .zikto-nav-items li a:hover >  span{
+.overlay .zikto-nav-items li a:hover > span {
   background-color: #000;
 }
 
@@ -109,7 +108,7 @@
 
 .overlay ul li a {
   font-size: 40px;
-  font-weight: 300;
+  /* font-weight: 300; */
   display: block;
   color: #000;
   /* font-size: 35px; */
