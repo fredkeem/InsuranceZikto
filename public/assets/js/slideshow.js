@@ -1,8 +1,8 @@
 const pageable = new Pageable("main", {
-  freeScroll: false,
-  swipeThreshold: 1000,
+  freeScroll: true,
+  swipeThreshold: 2000,
   infinite: false
-  //   slideshow: {
-  //     interval: 5000
-  //   }
+  // slideshow: {
+  //   interval: 5000
+  // }
 });
