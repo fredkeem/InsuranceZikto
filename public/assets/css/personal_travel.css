@@ -218,7 +218,7 @@ header .zikto-nav-area ul li:last-child {
 /* 작업순서 3 : 태블릿 === 스마트폰 가로버전 */
 @media all and (min-width: 768px) and (max-width: 1024px) {
   .zikto-wrap {
-    background: url("../image/table_i_bg.png") no-repeat;
+    background: url("../image/tablet_d_bg.png") no-repeat;
     background-size: cover;
   }
 
@@ -309,7 +309,7 @@ header .zikto-nav-area ul li:last-child {
 /* 작업순서 2 : 스마트폰 가로버전 */
 @media all and (min-width: 481px) and (max-width: 767px) {
   .zikto-wrap {
-    background: url("../image/mobile_hor_i_bg.png") no-repeat;
+    background: url("../image/tablet_d_bg.png") no-repeat;
     background-size: cover;
   }
 
@@ -397,7 +397,7 @@ header .zikto-nav-area ul li:last-child {
 /* 작업순서 1 : 스마트폰 세로버전 */
 @media all and (min-width: 320px) and (max-width: 480px) {
   .zikto-wrap {
-    background: url("../image/mobile_i_bg.png") no-repeat;
+    background: url("../image/tablet_d_bg.png") no-repeat;
     background-size: cover;
   }
 
