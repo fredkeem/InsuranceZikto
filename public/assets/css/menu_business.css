@@ -199,7 +199,7 @@ section .business-product :nth-child(4) {
   animation: fade-in-bottom 2s ease-in-out;
 }
 section .business-product :nth-child(4) p:first-child {
-  background: url("../image/card_item/personal_snow.png") no-repeat;
+  background: url("../image/card_item/personal_wave.png") no-repeat;
   background-size: cover;
 }
 

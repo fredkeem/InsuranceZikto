@@ -2,8 +2,7 @@
 .zikto-wrap {
   width: 100%;
   height: 100%;
-  font-family: 'Nanum Gothic', sans-serif;
-  
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 .zikto-container {
@@ -16,7 +15,7 @@
   width: 100%;
   margin: 0 auto;
   height: 250px;
-  background:url('image/img_bg.png') no-repeat 100%;
+  background: url("image/img_bg.png") no-repeat 100%;
   background-size: cover;
 }
 
@@ -65,7 +64,7 @@
 .zikto-nav-container li:last-child {
   display: flex;
   justify-content: flex-end;
-  align-items: center;  
+  align-items: center;
 }
 
 .zikto-nav-container li:first-child p {
@@ -86,7 +85,7 @@
 
 .zikto-nav-container li p {
   /* width: 50%; */
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
   cursor: pointer;
 }
 
@@ -95,7 +94,7 @@
   text-align: center;
   height: 40px;
   line-height: 40px;
-  background-color: #004DFF;
+  background-color: #004dff;
   color: #fff;
   border-radius: 21px;
 }
@@ -107,7 +106,7 @@
 .personal-title {
   color: #fff;
   margin-top: 40px;
-  text-shadow: 0 0 15px rgba(0,0,0,0.4);
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 }
 
 .personal-title h1 {
@@ -125,8 +124,7 @@
   margin: 0 auto;
   padding-top: 90px;
   padding-bottom: 70px;
-  background-color : #f6f9fc;
-  
+  background-color: #f6f9fc;
 }
 
 .personal-products-container {
@@ -139,7 +137,7 @@
 .personal-container-title {
   width: 100%;
   margin: 0 auto;
-  color: #50617A;
+  color: #50617a;
   font-size: 25px;
   font-weight: 500;
   margin-bottom: 30px;
@@ -153,7 +151,7 @@
   display: grid;
   grid-gap: 50px 30px;
   grid-auto-rows: 320px;
-  grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
 }
 
 .personal-card-area ul li {
@@ -161,13 +159,13 @@
   border-radius: 5px;
   /* box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12); */
   box-shadow: rgba(219, 233, 241, 0.8) 0px 0px 30px 0px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
 
 .personal-card-area ul li:hover {
   transform: scale(1.02);
-  background-color: #004DFF;
+  background-color: #004dff;
   color: #fff;
 }
 
@@ -193,20 +191,20 @@
 }
 
 .personal-card-title {
-  display:block;
-  color: #50617A;
+  display: block;
+  color: #50617a;
   font-size: 14px;
 }
 
 .personal-card-partner {
-  display:block;
-  color: #50617A;
+  display: block;
+  color: #50617a;
   font-size: 12px;
 }
 
 .personal-card-price {
   display: block;
-  color: #004DFF;
+  color: #004dff;
 }
 
 .personal-card-area ul li:hover .personal-card-text {
@@ -215,141 +213,138 @@
 
 /* footer area  */
 
-  footer {
-    width: 100%;
-    background-color: #fff;
-    margin: 0 auto;
-    border-top: 1px solid #C3C3C3;
-  }
+footer {
+  width: 100%;
+  background-color: #fff;
+  margin: 0 auto;
+  border-top: 1px solid #c3c3c3;
+}
 
-  .footer-wrap {
-    width: 100%;
-    max-width: 960px;
-    display: flex;
-    margin: 0 auto;
-  }
+.footer-wrap {
+  width: 100%;
+  max-width: 960px;
+  display: flex;
+  margin: 0 auto;
+}
 
-  .footer-container {
-    width: 960px;
-    max-width: 960px;
-    padding: 0 20px;
-    margin: 0 auto;
-  }
+.footer-container {
+  width: 960px;
+  max-width: 960px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
 
-  .footer-container-area {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-  }
+.footer-container-area {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 
-  .footer-icon-box {
-    width: 100%;
-  }
-  .footer-icon{
-    display: inline-block;
-    width: 22px;
-    line-height: 140px;
-  }
+.footer-icon-box {
+  width: 100%;
+}
+.footer-icon {
+  display: inline-block;
+  width: 22px;
+  line-height: 140px;
+}
 
-  .fab {
-    color: #9C9C9C;
-    font-size: 20px;
-  }
+.fab {
+  color: #9c9c9c;
+  font-size: 20px;
+}
 
-  .fab:hover {
-    color: #1465E4;
-    transition: all .5s ease-in-out;
-  }
+.fab:hover {
+  color: #1465e4;
+  transition: all 0.5s ease-in-out;
+}
 
-  .footer-font {
-    width: 25px;
-    height: 25px;
-    color: #D8D8D8;
-  }
+.footer-font {
+  width: 25px;
+  height: 25px;
+  color: #d8d8d8;
+}
 
-  .footer-left {
-    /* background-color: red; */
-    padding-top: 30px;
-  }
+.footer-left {
+  /* background-color: red; */
+  padding-top: 30px;
+}
 
-  .footer-left h3 {
-    font-size: 14px;
-  }
+.footer-left h3 {
+  font-size: 14px;
+}
 
-  .footer-left p span {
-    font-size: 11px;
-  }
+.footer-left p span {
+  font-size: 11px;
+}
 
-
-  .page-loader {
-    background: #fff;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    opacity: 1;
+.page-loader {
+  background: #fff;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  opacity: 1;
 }
 
 .page-loader-inner {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 0;
-    padding: 20px;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  padding: 20px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .spinner {
-    position: relative;
-    height: 30px;
-    width: 30px;
-    margin: 100px auto;
+  position: relative;
+  height: 30px;
+  width: 30px;
+  margin: 100px auto;
+}
+
+.double-bounce1,
+.double-bounce2 {
+  position: absolute;
+  background-color: #1c69af;
+  border-radius: 50%;
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  -webkit-animation: bounce 2s infinite ease-in-out;
+  animation: bounce 2s infinite ease-in-out;
+}
+
+.double-bounce2 {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+
+@-webkit-keyframes bounce {
+  0%,
+  100% {
+    -webkit-transform: scale(0);
   }
 
-  .double-bounce1,
-  .double-bounce2 {
-      position: absolute;
-      background-color: #1c69af;
-      border-radius: 50%;
-      opacity: .5;
-      height: 100%;
-      width: 100%;
-      left: 0;
-      top: 0;
-      -webkit-animation: bounce 2s infinite ease-in-out;
-      animation: bounce 2s infinite ease-in-out;
+  50% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
   }
 
-  .double-bounce2 {
-      -webkit-animation-delay: -1s;
-      animation-delay: -1s;
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
-
-  @-webkit-keyframes bounce {
-
-      0%,
-      100% {
-          -webkit-transform: scale(0);
-      }
-
-      50% {
-          -webkit-transform: scale(1);
-      }
-  }
-
-  @keyframes bounce {
-
-      0%,
-      100% {
-          -webkit-transform: scale(0);
-          transform: scale(0);
-      }
-
-      50% {
-          -webkit-transform: scale(1);
-          transform: scale(1);
-      }
-  }
+}
