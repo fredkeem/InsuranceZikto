@@ -171,6 +171,9 @@
   position: absolute;
   left: 0;
   bottom: 3%;
+}
+
+.footer-copy-area p {
   font-size: 12px;
   line-height: 20px;
   color: #9b9b9b;

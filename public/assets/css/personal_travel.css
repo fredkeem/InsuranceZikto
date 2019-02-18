@@ -52,6 +52,7 @@ header .zikto-nav-area ul li:first-child p {
 header .zikto-nav-area ul li:first-child p:first-child {
   width: 108px;
   margin-right: 15px;
+  /* vertical-align: middle; */
 }
 
 header .zikto-nav-area ul li:first-child p:last-child {
