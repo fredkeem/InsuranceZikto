@@ -216,6 +216,10 @@ header .zikto-nav-area ul li:last-child {
   width: 100%;
 }
 
+.pt-partner-title-m {
+  display: none;
+}
+
 /* 추가작업1  */
 @media all and (min-width: 1281px) and (max-width: 1440px) {
 }
@@ -508,6 +512,7 @@ header .zikto-nav-area ul li:last-child {
   }
 
   .pt-partner-title-m {
+    display: block;
     width: 100%;
   }
 

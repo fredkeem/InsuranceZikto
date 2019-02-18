@@ -207,6 +207,10 @@ section {
   color: #000;
 }
 
+#page-1 .p1-desc-area-imgBox {
+  width: 513px;
+}
+
 #page-1 .p1-section-right-area .p1-desc-area ul li {
   margin-bottom: 50px;
 }
@@ -291,6 +295,10 @@ section {
   color: #000;
 }
 
+#page-2 .p2-desc-area-imgBox {
+  width: 513px;
+}
+
 #page-2 .p2-section-right-area .p2-desc-area ul li {
   margin-bottom: 50px;
 }
@@ -373,6 +381,10 @@ section {
 #page-3 .p3-section-right-area .p3-desc-area {
   margin-top: 50px;
   color: #000;
+}
+
+#page-3 .p3-desc-area-imgBox {
+  width: 513px;
 }
 
 #page-3 .p3-section-right-area .p3-desc-area ul li {
@@ -463,6 +475,10 @@ section {
   color: #000;
 }
 
+#page-4 .p4-desc-area-imgBox {
+  width: 513px;
+}
+
 #page-4 .p4-section-right-area .p4-desc-area ul li {
   margin-bottom: 50px;
 }
@@ -549,6 +565,10 @@ section {
 #page-5 .p5-section-right-area .p5-desc-area {
   margin-top: 50px;
   color: #000;
+}
+
+#page-5 .p5-desc-area-imgBox {
+  width: 513px;
 }
 
 #page-5 .p5-section-right-area .p5-desc-area ul li {
@@ -727,58 +747,104 @@ section .p1-section-right-area ul li {
     justify-content: flex-start;
   }
 
+  #page-1 .fp-tableCell {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #page-2 .fp-tableCell {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #page-3 .fp-tableCell {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #page-4 .fp-tableCell {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #page-5 .fp-tableCell {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
   #page-1 .p1-section-left,
   #page-2 .p2-section-left,
-  #page-3 .p3-section-left {
+  #page-3 .p3-section-left,
+  #page-4 .p4-section-left,
+  #page-5 .p5-section-left {
     width: 100%;
-    height: 25%;
+    height: 200px;
     /* background: url("../image/mobile_d_bg.png") no-repeat; */
     background-size: cover;
     position: relative;
+    background-position-y: center;
   }
 
   #page-1 .p1-section-right,
   #page-2 .p2-section-right,
-  #page-3 .p3-section-right {
+  #page-3 .p3-section-right,
+  #page-4 .p4-section-right,
+  #page-5 .p5-section-right {
     height: auto;
   }
 
   #page-1 .p1-section-right-area,
   #page-2 .p2-section-right-area,
-  #page-3 .p3-section-right-area {
+  #page-3 .p3-section-right-area,
+  #page-4 .p4-section-right-area,
+  #page-5 .p5-section-right-area {
     padding: 20px 20px 0;
     height: 60%;
   }
 
   #page-1 .p1-section-right-area div .p1-image-area,
   #page-2 .p2-section-right-area div .p2-image-area,
-  #page-3 .p3-section-right-area div .p3-image-area {
+  #page-3 .p3-section-right-area div .p3-image-area,
+  #page-4 .p4-section-right-area div .p4-image-area,
+  #page-5 .p5-section-right-area div .p5-image-area {
     width: 40px;
   }
 
   #page-1 .p1-section-right-area div .p1-image-area img,
   #page-2 .p2-section-right-area div .p2-image-area img,
-  #page-3 .p3-section-right-area div .p3-image-area img {
+  #page-3 .p3-section-right-area div .p3-image-area img,
+  #page-4 .p4-section-right-area div .p4-image-area img,
+  #page-5 .p5-section-right-area div .p5-image-area img {
     width: 100%;
   }
 
   #page-1 .p1-section-right-area div .p1-title,
   #page-2 .p2-section-right-area div .p2-title,
-  #page-3 .p3-section-right-area div .p3-title {
+  #page-3 .p3-section-right-area div .p3-title,
+  #page-4 .p4-section-right-area div .p4-title,
+  #page-5 .p5-section-right-area div .p5-title {
     font-size: 30px;
   }
 
   #page-1 .p1-section-right-area div .p1-desc,
   #page-2 .p2-section-right-area div .p2-desc,
-  #page-3 .p3-section-right-area div .p3-desc {
+  #page-3 .p3-section-right-area div .p3-desc,
+  #page-4 .p4-section-right-area div .p4-desc,
+  #page-5 .p5-section-right-area div .p5-desc {
     font-size: 15px;
   }
 
   #page-1 .p1-section-right-area .p1-desc-area,
   #page-2 .p2-section-right-area .p2-desc-area,
-  #page-3 .p3-section-right-area .p3-desc-area {
+  #page-3 .p3-section-right-area .p3-desc-area,
+  #page-4 .p4-section-right-area .p4-desc-area,
+  #page-5 .p5-section-right-area .p5-desc-area {
     margin: 40px 0 0;
     color: #000;
+  }
+
+  #page-1 .p1-desc-area-imgBox,
+  #page-2 .p2-desc-area-imgBox,
+  #page-3 .p3-desc-area-imgBox,
+  #page-4 .p4-desc-area-imgBox,
+  #page-5 .p5-desc-area-imgBox {
+    width: 100%;
   }
 
   #page-1 .p1-section-right-area .p1-desc-area ul li,
